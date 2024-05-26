@@ -16,7 +16,7 @@ Una aplicación de lista de tareas desarrollada en Xamarin.Forms, permitiendo ag
 
 ## Instalación
 
-1. Clona este repositorio: `git clone https://github.com/ZaidYslej/ToDoList.git`
+1. Clona este repositorio: `git clone https://github.com/ZaidYslej/ToDoList.git](https://github.com/ZaidYslej/ToDoList_App.git)`
 2. Abre el proyecto en Visual Studio 2022.
 3. Restaura los paquetes NuGet necesarios.
 4. Compila y ejecuta la aplicación en un emulador o dispositivo físico.
