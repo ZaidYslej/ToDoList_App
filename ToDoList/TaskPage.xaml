@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ToDoList.TaskPage">
+    <StackLayout Padding="10">
+        <Entry x:Name="nameEntry" Placeholder="Titulo de tarea" Text="{Binding Name}" />
+        <Editor x:Name="descriptionEditor" Placeholder="Descripción de la tarea por hacer:" Text="{Binding Description}" />
+        <Switch x:Name="isCompletedSwitch" IsToggled="{Binding IsCompleted}" />
+        <Button Text="Guardar" Clicked="OnSaveClicked" />
+        <Button Text="Borrar" Clicked="OnDeleteClicked" />
+    </StackLayout>
+</ContentPage>
